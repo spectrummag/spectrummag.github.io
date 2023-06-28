@@ -13,22 +13,9 @@
     <link href="style/variables-you.css" rel="stylesheet" id="theme-link"/>
     <link href="assets/p.png" rel="icon" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <script type="text/javascript">
-    var r = document.querySelector(':root');
-    var rs = getComputedStyle(r);
-    rs.getPropertyValue('--bgimage')
-    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
-    if (width<=900){
-    fetch('https://source.unsplash.com/random/1080x1920/?wallpaper').then((response) =>{
-        image = document.getElementById("bruh").src = response.url
-        r.style.setProperty('--bgimage', "url("+response.url+")")})} else {
-        fetch('https://source.unsplash.com/random/1920x1080/?wallpaper').then((response) =>{
-            image = document.getElementById("bruh").src = response.url
-            r.style.setProperty('--bgimage', "url("+response.url+")")})       
-        }</script>
 </head>
 <body style="text-align:justify;" loading="eager">
-<img id="bruh" style="display:none;" src="https://images.unsplash.com/photo-1460411794035-42aac080490a?ixid=MnwxMTI1OHwwfDF8cmFuZG9tfHx8fHx8fHx8MTY4MTA2MDQzOA&ixlib=rb-4.0.3&q=85&w=1920" >
+<img id="bruh" style="display:none;" src="assets/bg.jpg" >
 <br><br>
     <div id="glassoriginal" class="glass overflow">
         <div class="glasses">
@@ -39,16 +26,20 @@
         </div>
         <div href="blogs.html" class="textcolor" style="display:flex;">
         <div class="texxst indexblog" style="text-align:center;">
-                    <p class="blogheadingin">Chalk<br></p>
+                    <p class="blogheadingin">KnockOnWoodGrain<br></p>
                     <p class="para" ><a href="https://www.youtube.com/@knockonwoodgrain" class="textcolor">YouTube</a><br><a href="https://letterboxd.com/starmatter/films/" class="textcolor">Letterboxd</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/knockonwoodgrain/" class="textcolor">Instagram</a><br> Be Yourself.</p>
             </div>
         <div class="texxst indexblog" style="text-align:center;">
-                    <p class="blogheadingin">Chalk<br></p>
-                    <p class="para" ><a href="https://www.youtube.com/@knockonwoodgrain" class="textcolor">YouTube</a><br><a href="https://letterboxd.com/starmatter/films/" class="textcolor">Letterboxd</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/knockonwoodgrain/" class="textcolor">Instagram</a><br> Be Yourself.</p>
+                    <p class="blogheadingin">ChalkVerulkar<br></p>
+                    <p class="para" ><a href="https://www.youtube.com/@chalkverulkar" class="textcolor">YouTube</a><br><a href="https://www.aryanverulkar.com" class="textcolor">Website</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/aryan.verulkar/" class="textcolor">Instagram</a><br> Be Yourself.</p>
             </div>
         <div class="texxst indexblog" style="text-align:center;">
-                    <p class="blogheadingin">Chalk<br></p>
-                    <p class="para" ><a href="https://www.youtube.com/@knockonwoodgrain" class="textcolor">YouTube</a><br><a href="https://letterboxd.com/starmatter/films/" class="textcolor">Letterboxd</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/knockonwoodgrain/" class="textcolor">Instagram</a><br> Be Yourself.</p>
+                    <p class="blogheadingin">hereticopernation<br></p>
+                    <p class="para" ><a href="https://www.youtube.com/@abk23" class="textcolor">YouTube</a><br><a href="https://letterboxd.com/starmatter/films/" class="textcolor">Letterboxd</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/hereticopernation/" class="textcolor">Instagram</a><br> Be Yourself.</p>
+        </div>
+        <div class="texxst indexblog" style="text-align:center;">
+                    <p class="blogheadingin">FeastingBigFoot<br></p>
+                    <p class="para" ><a href="https://www.youtube.com/@feastingbigfoot" class="textcolor">YouTube</a><br><a href="https://letterboxd.com/starmatter/films/" class="textcolor">Letterboxd</a><br><a href="https://listenbrainz.org/user/starmatter/stats/?range=all_time#top-entitiy" class="textcolor">Music Taste</a><br><a href="https://www.instagram.com/rudra.x3/" class="textcolor">Instagram</a><br> Be Yourself.</p>
         </div>
             </div>
 
@@ -73,6 +64,21 @@ $("#indexbutton").tilt({maxTilt:10,scale:2,"max-glare":1.11});
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
 <script>
+var r = document.querySelector(':root');
+    var rs = getComputedStyle(r);
+    rs.getPropertyValue('--bgimage')
+    var width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+    var random= Math.floor(Math.random() * 7) + 0;
+    var landscape = ["https://images.pexels.com/photos/2693212/pexels-photo-2693212.png?h=1080","https://images.pexels.com/photos/1827837/pexels-photo-1827837.jpeg?h=1080","https://images.pexels.com/photos/2693200/pexels-photo-2693200.jpeg?h=1080", "https://images.pexels.com/photos/3560995/pexels-photo-3560995.jpeg?h=1080", "https://images.pexels.com/photos/2860804/pexels-photo-2860804.jpeg?h=1080","https://images.pexels.com/photos/2317710/pexels-photo-2317710.jpeg?h=1080", "https://images.pexels.com/photos/1212408/pexels-photo-1212408.jpeg?h=1080"]
+    var portrait = ["https://images.pexels.com/photos/2983294/pexels-photo-2983294.jpeg?h=1920","https://images.pexels.com/photos/2983141/pexels-photo-2983141.jpeg?h=1920", "https://images.pexels.com/photos/2693200/pexels-photo-2693200.jpeg?h=1920" , "https://images.pexels.com/photos/2911515/pexels-photo-2911515.jpeg?h=1920", "https://images.pexels.com/photos/3832763/pexels-photo-3832763.jpeg?h=1920", "https://images.pexels.com/photos/3034871/pexels-photo-3034871.jpeg?h=1920", "https://images.pexels.com/photos/3705942/pexels-photo-3705942.jpeg?h=1920"]
+    let backgroundl = landscape[random]
+    let backgroundp = portrait[random]
+    console.log(landscape[random])
+    if (width<=900){
+        image=document.getElementById("bruh").src=backgroundp;
+        r.style.setProperty('--bgimage', "url("+backgroundp+")")} else {
+            image=document.getElementById("bruh").src=backgroundl;
+            r.style.setProperty('--bgimage', "url("+backgroundl+")")}       
 const colorThief = new ColorThief();
 const sourceImage = document.getElementById("bruh");
 var r = document.querySelector(':root');

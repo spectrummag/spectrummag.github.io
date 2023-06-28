@@ -39,7 +39,7 @@ body{margin: 0px;
     background-attachment: fixed;
     transition: 0.2s;}
     .textcolor{color: var(--paracolor);
-	flex-direction:row;}
+	flex-direction:column; flex-wrap:wrap; align-items: stretch;}
     .linkcolor{color: var(--paracolor);}
     .hr {border-radius: 0.2vw;
         border: solid 7px rgba(0, 0, 0, 0.5);}
@@ -175,7 +175,7 @@ body{margin: 0px;
         transition: var(--transition);
         margin: 0.5vw; }
     /*Blog-------------------------------------------------------------------------*/
-    .texxst {max-width: max-content;
+    .texxst {
         padding: 1vw;
         text-align: center;
         font-size: 3vw;
@@ -213,7 +213,7 @@ body{margin: 0px;
             transition: var(--transition);
             overflow: hidden;
             border-radius: 2vw}
-        .indexblog{max-width:50%;border-radius: 2vw;margin: 0.7vw;}
+        .indexblog{border-radius: 2vw;margin: 0.7vw;}
         .headingbutton{display: flex;flex-direction: row;justify-content: space-between;align-items: flex-start;}
         .blogheading{margin-top: 0;
             margin-bottom: 1vw;

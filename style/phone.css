@@ -40,7 +40,7 @@ body{
     transition: 1s;}
     .textcolor {
         color: var(--textcolor);
-	flex-direction:column;}
+	flex-direction:column;align-items:stretch}
     .linkcolor{
         color: var(--paracolor);}
     h1, h2, h3, h5, h6 {
@@ -190,7 +190,6 @@ body{
             padding-bottom: 1vw;
             padding-top: 3vw;
             text-align: center;
-            width: 70%;
             margin:2vw;
             font-size: 6vw;
             color: var(--textcolor);
