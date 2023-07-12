@@ -18,7 +18,33 @@ font-style: italic;
 }
 body{background-color:black;overflow:hidden;}
 .bg{display:block;position:absolute;min-width:100%;min-height:100%;background-image:url("BGWEBPor.webp");background-position: center;background-size:cover;background-attachment:fixed;}
-.form{display:flex;align-items:center;justify-content:center;background-color:rgba(0,0,0,0.5);backdrop-filter: blur( 45.0px );-webkit-backdrop-filter: blur( 10.0px );}
+.box{display:flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;background-color:rgba(0,0,0); padding: 5vw;}
 .para{display:flex;align-items:center;justify-content:center; height:100%;}
-.text{font-family: "Swear Display" ; color: #F6CB1D;font-size:2.1vw;text-decoration:none;padding:0.5vw;padding-top:0.1vw;border:0.1vw solid #F6CB1D;}
+.text{font-family: "Swear Display" ; color: #F6CB1D;font-size:8vw;text-decoration:none;padding:2vw;padding-top:0.2vw;border:0.1vw solid #F6CB1D;}
+.optintext{font-family: "Swear Display" ; color: #F6CB1D;font-size:6vw;text-decoration:none;padding:0.5vw;padding-top:0.1vw;}
+input.optinbutton{box-sizing:content-box;width:5vw;height:5vw;background-color:white;accent-color:#F6CB1D;}
+.inp{
+  font-family: "Swear Display";
+  font-size:6vw;
+  width: 80vw; 
+  height: 7vh;
+  padding: 12px 20px;
+  margin: 2vw;
+  box-sizing: border-box;
+  border:0.1vw solid #F6CB1D;
+  background-color: rgba(0,0,0,0);
+  color: #F6CB1D;
+}
+.sub{
+    font-family: "Swear Display" ;
+    padding:2vw;
+    margin:3vw;
+    padding-top:0.2vw;
+    font-size:8vw;
+    border:0.1vw solid #F6CB1D;
+  background-color: rgba(0,0,0,0);
+  color: #F6CB1D;}
+
 
